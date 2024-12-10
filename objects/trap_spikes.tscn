@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://bunxb353h3lje" path="res://objects/damage_dealer_area_3d.tscn" id="2_siud0"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_18e5l"]
-size = Vector3(0.75, 0.3, 0.75)
+size = Vector3(0.547394, 0.280811, 0.571426)
 
 [node name="trap-spikes" instance=ExtResource("1_0ers7")]
 
@@ -12,6 +12,7 @@ size = Vector3(0.75, 0.3, 0.75)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 0)
 
 [node name="CollisionShape3D" parent="DamageDealerArea3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00794983, -0.00959474, -0.0083847)
 shape = SubResource("BoxShape3D_18e5l")
 
 [editable path="DamageDealerArea3D"]

@@ -23,14 +23,14 @@ monitorable = false
 [node name="CollisionShape3D" type="CollisionShape3D" parent="ButtonArea3D" index="0"]
 shape = SubResource("BoxShape3D_a52qj")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="." index="3"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0751945, 0)
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]
-shape = SubResource("BoxShape3D_0fkk3")
-
-[node name="CooldownTimer" type="Timer" parent="." index="4"]
-wait_time = 1.5
+[node name="CooldownTimer" type="Timer" parent="." index="3"]
+wait_time = 4096.0
 one_shot = true
+
+[node name="AnimatableBody3D" type="AnimatableBody3D" parent="." index="4"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AnimatableBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0751945, 0)
+shape = SubResource("BoxShape3D_0fkk3")
 
 [connection signal="area_entered" from="ButtonArea3D" to="." method="_on_button_area_3d_area_entered"]
