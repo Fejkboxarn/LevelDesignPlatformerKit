@@ -32,5 +32,6 @@ one_shot = true
 [node name="CollisionShape3D" type="CollisionShape3D" parent="AnimatableBody3D" index="0"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0751945, 0)
 shape = SubResource("BoxShape3D_0fkk3")
+disabled = true
 
 [connection signal="area_entered" from="ButtonArea3D" to="." method="_on_button_area_3d_area_entered"]

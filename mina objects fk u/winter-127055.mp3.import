@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c2cgdcieqc7s4"
+path="res://.godot/imported/winter-127055.mp3-fbef73f9c15137164602aa42ffda456e.mp3str"
+
+[deps]
+
+source_file="res://mina objects fk u/winter-127055.mp3"
+dest_files=["res://.godot/imported/winter-127055.mp3-fbef73f9c15137164602aa42ffda456e.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
