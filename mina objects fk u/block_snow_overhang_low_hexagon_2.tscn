@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://e2vrsqpt6jb2"]
+
+[ext_resource type="PackedScene" uid="uid://bdhjrlhycijdq" path="res://models/props/block-snow-overhang-low-hexagon.glb" id="1_hgob5"]
+
+[node name="block-snow-overhang-low-hexagon2" instance=ExtResource("1_hgob5")]
